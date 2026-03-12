@@ -1,3 +1,6 @@
 .DS_Store
 Tableau/
 venv/
+__pycache__/
+*.pyc
+.env
