@@ -1,5 +1,4 @@
-# *Westbrook* | Growth Constraints and Strategic Opportunities in a Mature E-commerce Business
-
+# `Westbrook` | Growth Constraints and Strategic Opportunities in a Mature E-commerce Business
 ---
 
 ## I. Project Background
@@ -40,8 +39,10 @@ These tables capture the information required to analyze **revenue performance, 
 
 ### Data Preparation Workflow
 
-* **Data cleaning & transformation:** [Python](2_notebooks)
-* **Relational modeling & KPI validation:** [PostgreSQL](3_sql)
+The project follows a full ETL pipeline to simulate a professional analytical environment:
+
+*   [**Python (Pandas):**](2_notebooks) Engineered a relational **Star Schema** (Fact & Dimension tables) from raw transactional data. Resolved geographic inconsistencies and implemented **custom mapping logic** to correct product-category misalignment.
+*   [**PostgreSQL:**](3_sql) Architected the database schema with **Primary/Foreign Key constraints**. Developed advanced analytical queries using **CTEs and Window Functions** to calculate Retention Rates, Revenue Quintiles, and operational KPIs.
 
 See [Data Documentation](/1_data/data_documentation.md) for detailed dataset description and transformation steps.
 
